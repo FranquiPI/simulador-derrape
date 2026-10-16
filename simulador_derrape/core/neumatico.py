@@ -23,7 +23,7 @@ class Neumatico:
         return opciones[tipo]
 
     def __repr__(self):
-        return f"{self.nombre} (μ={self.mu})"
+        return f"{self.nombre} (mu={self.mu})"
 
 
 class Blando(Neumatico):
